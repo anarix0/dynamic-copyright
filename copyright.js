@@ -1,4 +1,4 @@
-// https://anarix0.github.io
+// https://2faa.cc
 // https://github.com/anarix0
 
 // https://github.com/anarix0/dynamic-copyright
@@ -21,7 +21,7 @@ function copyright() {
 
     a_element = document.createElement('a')
     //a_element.classList.add(copyright_href_id)
-    a_element.href = "https://anarix0.github.io"
+    a_element.href = "https://2faa.cc"
     a_element.innerHTML = `${copyright_sign} ${copyright_name}, ${/\d{4}/.exec(Date())[0]}`
 
     p_element.append(a_element)
